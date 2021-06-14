@@ -1,0 +1,332 @@
+*{
+padding: 0px;
+margin: 0px;
+
+}
+ #wrapper{
+
+ 	width: 1170px;
+ 	margin: 0 auto 0 auto;
+ 	font-family: arial;
+
+ }
+
+ #Header{
+ 
+ 	height: 100px;
+ 	
+
+ }
+
+ .abc{
+ 	background-color: grey;
+ }
+
+ .xyz{
+ 	background-color : yellow;
+ }
+
+ #logo{
+ 	float: left;
+ }
+
+ #navigation{
+ 	float: right;
+ 	clear: right;
+ 	margin: 38px 0 0 0;
+
+}
+
+#navigation ul{
+	list-style: none;
+}
+
+
+#navigation ul li{
+	float: left;
+	font-size: 15px;
+}
+
+#navigation ul li a:link, #navigation ul li a:visited{
+	background-color: black;
+	color: white;
+	text-decoration: none;
+	padding: 10px 15px 10px 15px;
+	display: block;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	-webkit-box-shadow: 0 1px 1px 0 #8AFFF3;
+	box-shadow: 0 1px 1px 0 #8AFFF3;
+	
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-ms-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;	
+}
+
+#navigation ul li a:hover, #navigation ul li a:active{
+	background-color: white;
+	color:black;
+
+
+
+}
+
+
+#navigation ul li a.active{
+	background-color: #069;
+}
+ #contactinfo{
+ 	font-size: 13px;
+ 	float: right;
+ 	margin: 10px 10px 0 0;
+ 	color: #333;
+
+
+
+
+
+ }
+
+
+
+ #mainContainer{
+ 	background-color: lightgray;
+ 	height: 600px;
+ 	padding: 10px;
+}
+
+#sidebar{
+	background-color: white;
+	width: 300px;
+	padding: 10px;
+	float: left;
+	margin: 0 10px 0 0;
+}
+
+#sidelinksone{
+	list-style: none;
+	font-size: 15px;
+}
+
+#sidelinksone li a:link, #sidelinksone li a:visited{
+	background-color: black;
+	color: white;
+	text-decoration: none;
+	display: block;
+	padding: 10px;
+	text-align: center;
+	border-bottom: 1px solid #ccc;
+
+}
+
+#sidelinksone li a:hover, #sidelinks li a:active{
+	background-color: #069;
+
+}
+
+#sidelinkstwo{
+	list-style: none;
+	margin: 50px 0 0 0;
+	font-size: 15px;
+ 
+}
+
+#sidelinkstwo li a:link, #sidelinkstwo li a:visited{
+	color: #333;
+	text-decoration: none;
+	padding:  10px 10px 10px 20px;
+	display: block;
+	border-bottom: 1px solid #ccc;
+
+	background-image: url(../images/angle-double-right.png);
+	background-repeat: no-repeat;
+	background-position: -30px center;
+
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+
+}
+
+#sidelinkstwo li a:hover, #sidelinkstwo li a:active{
+	color: #069;
+
+	background-image: url(../images/angle-double-right-hover.png);
+	background-position: 3px center;
+}
+
+#Container{
+	width: 800px;
+	background-color: white;
+	padding: 10px;
+	float: left;
+}
+
+.format{
+	font-size: 15px;
+	line-height: 1.6em;
+	color: #454545;
+	margin: 0 0 10px 0;
+}
+
+
+#footer{
+	background-color: gray;
+	height: 100px;
+	padding: 10px;
+	font-size: 13px;
+
+}
+
+#footerlinks{
+	list-style: none;
+	text-align: center;
+
+}
+
+#footerlinks li{
+	display: inline-block;
+	
+}
+
+#footerlinks li a:link , #footerlinks li a:visited{
+	color: #eee;
+	text-decoration: none;
+	display: block;
+	margin: 0 10px;
+
+}
+
+#footerlinks li a:hover , #footerlinks li a:active{
+	color: #069;
+
+}
+
+#Copyright{
+	float: left;
+	margin: 70px 0 0 0;
+	color: #eee;
+
+}
+
+#Designedby{
+	float: right;
+	margin: 70px 0 0 0;
+	color: #eee;
+}
+
+#aboutPic{
+	float: left;
+	margin: 0 10px 10px 0;
+	border: 10px solid #333;
+
+}
+
+#aboutPic:hover{
+	border-color: #069;
+
+}
+
+.Servicebox{
+	padding: 10px;
+	background-color: white;
+	width: 260px;
+	float: left;
+}
+
+.Servivebox h3{
+	font-size: 19px;
+	color: #333;
+	margin: 10px 0;
+
+}
+
+.Servicebox p{
+	font-size: 14px;
+	line-height: 21px;
+	color: #454545;
+}
+
+.Servicebox a:link, .Servicebox a:visited{
+  font-size: 14px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: inline-block;
+  margin: 10px 0 0 0;
+
+
+}
+
+.Servicebox a:hover, .Servicebox a:active{
+	background-color: #069;
+
+}
+
+.marginRight10{
+	margin-right: 10px;
+
+}
+
+
+.halfBox{
+	width: 550px;
+	float: left;
+	background-color: white;
+	padding: 10px;
+
+}
+
+.formstyle input[type="text"], .formstyle input[type="email"],.formstyle input[type="tel"]{
+	padding: 10px;
+	border: 1px solid #ccc;
+	width: 528px;
+	margin: 0 0 10px 0;
+
+}
+
+.formstyle select{
+	padding: 10px;
+	border: 1px solid #ccc;
+	width: 550px;
+	margin: 0 0 10px 0;
+}
+
+.formstyle textarea{
+	padding: 10px;
+	border: 1px solid #ccc;
+	width: 528px;
+	margin: 0 0 10px 0;
+	height: 130px;
+	font-family: arial, sens-serif;
+
+}
+
+.formstyle input[type="submit"], .formstyle input[type="reset"]{
+	background-color:#069;
+	padding:10px 20px;
+	margin: 0 10px 0 0;
+	outline: 1px solid #297EFF;
+	outline-offset: 2px;
+
+	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+ 	
+
